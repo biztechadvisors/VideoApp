@@ -60,24 +60,8 @@ const VideoPlayer = () => {
              <Typography variant="h5" gutterBottom>{name || 'Name'}</Typography>
             <video muted ref={myVideo} autoPlay className={classes.video} />
           </Grid> 
-          {/* {Selected='DOCTOR'? */}
-          {/* <Slider
-          value={value}
-          onChange={changeHandler}
-          defaultValue={1}
-          valueLabelDisplay="auto"
-          min={1}
-          max={800}/> */}
-          {/* :console.log(" else work")}    */}
       </Paper>
       )}
-      
-   
-    {/* <div id='show' style={{color:"white"}}>Error</div> */}
-    {/* <button className='Start_recording' style={{width:"80px",height:"50px"}} onClick={StartRecord} >Start Recording</button>
-    <button className='stop-recording' style={{width:"80px",height:"50px"}} onClick={StopRecord}>Stop Recording</button>
-    <button className='Downloade' style={{width:"80px",height:"50px"}} onClick={DownloadVideo}>Downloade Recording</button> */}
-      {/* <div id='show1' style={{color:"white"}}>Error1</div> */}
 
       {callAccepted && !callEnded && (
         <Paper className={classes.paper}>
